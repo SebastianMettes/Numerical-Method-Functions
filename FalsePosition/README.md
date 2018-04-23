@@ -1,5 +1,8 @@
 # falsePosition
-Function to estimate the roots of a given function.
+This folder contains falsePosition.m
+
+A Matlab Function to estimate the roots of a given function.
+
 ## function [root,fx,ea,iter] = falsePosition(func,xl,xu,es,maxiter)
 ### input:
 * func: the function handle being evaluated must use x as independent variable e.g. @(x)x^2 would be treated as f(x)=x^2
